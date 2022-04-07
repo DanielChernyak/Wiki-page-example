@@ -1,0 +1,9 @@
+body {
+    background-color: #f6f6f6;
+    overflow-y: scroll;
+}
+
+html,
+body {
+    font-family: sans-serif;
+}
