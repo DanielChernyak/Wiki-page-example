@@ -1,9 +1,44 @@
+h1 {
+    font-size: 188%;
+    font-weight: normal;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #a2a9b1;
+}
+
 body {
     background-color: #f6f6f6;
     overflow-y: scroll;
+    margin: 0;
+    display: block;
 }
 
 html,
 body {
     font-family: sans-serif;
+    height: 100%;
+    margin: 0.5em 0;
+    padding-left: 5%;
 }
+
+p {
+    font-size: calc(1em * 0.875);
+    width: 80%;
+    line-height: 1.6;
+}
+div {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin:-32% 0 5% 5%;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+  }
+  
