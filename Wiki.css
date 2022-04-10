@@ -40,5 +40,47 @@ div {
     font-size: 88%;
     line-height: 1.5em;
     width: 22em;
+    line-height: 1.5em;
+  }
+  table {
+    border: 1px solid;
+    width: 50%;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-align: left;
+    line-height: 1.2em;
+    border-collapse: separate;
+    text-indent: initial;
+  }
+  th {
+    background-color: #b0c4de;
+    line-height: 1.5em;
+    text-align: center;
+    width: 50%;
+    display: table-cell;
+    font-weight: bold;
+  }
+  td {
+        text-align: left;
+        width: 60%;
+        display: table-cell;
+  }
+  .image2 {
+    border: 0;
+    width: 220px;
+    height: 314px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+  .image1 {
+    border: 0;
+    width: 220px;
+    height: 314px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    display: block;
   }
   
