@@ -29,28 +29,30 @@ p {
     line-height: 1.6;
 }
 div {
+  /* right panel */
     border: 1px solid #a2a9b1;
     border-spacing: 3px;
     background-color: #f8f9fa;
     color: black;
-    margin:-32% 0 5% 5%;
-    padding: 0.2em;
+    margin:-32% 1% 5% 5%;
+    padding: 0em;
     float: right;
     clear: right;
     font-size: 88%;
     line-height: 1.5em;
-    width: 22em;
+    width: 20em;
     line-height: 1.5em;
   }
   table {
-    border: 1px solid;
-    width: 50%;
+    border: none;
+    width: 40%;
     white-space: nowrap;
     vertical-align: baseline;
     text-align: left;
-    line-height: 1.2em;
     border-collapse: separate;
     text-indent: initial;
+    font-size: calc(1em * 0.875);
+    line-height: 1.6;
   }
   th {
     background-color: #b0c4de;
@@ -58,12 +60,12 @@ div {
     text-align: center;
     width: 50%;
     display: table-cell;
-    font-weight: bold;
+    font-weight: bold;;
   }
   td {
         text-align: left;
-        width: 60%;
-        display: table-cell;
+        width: max-content;
+        display: table-cell;;
   }
   .image2 {
     border: 0;
@@ -73,6 +75,7 @@ div {
     text-align: center;
     margin: auto;
     display: block;
+    margin-top: 5px;
   }
   .image1 {
     border: 0;
@@ -83,4 +86,25 @@ div {
     margin: auto;
     display: block;
   }
-  
+  /* Styling the main table of contents */
+ .main-toc {
+background-color: whitesmoke;
+position: absolute;
+height: fit-content;
+width: fit-content;
+left: 90px;
+top: 1235px;
+
+ }
+.main-toc.li {
+    margin-bottom: 0.1em;
+    display: list-item;
+    text-align: left;
+
+}
+.a {
+  padding-left: 35px;
+  font-size: 82%;
+}
+
+ 
